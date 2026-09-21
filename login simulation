@@ -1,0 +1,17 @@
+#include <iostream>
+#include <string>
+
+int main() {
+    // Stored login credentials
+    const string correctUser = "Gregory";
+    const string correctPass = "1234";
+
+    // User input
+    string username;
+    string password;
+
+    cout << "=== Login Simulation ===" << endl;
+
+    //Ask user for credentials
+    cout << "Enter username"
+}
