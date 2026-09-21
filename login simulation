@@ -12,6 +12,22 @@ int main() {
 
     cout << "=== Login Simulation ===" << endl;
 
-    //Ask user for credentials
-    cout << "Enter username"
+    // Ask user for credentials
+    cout << "Enter username: ";
+    cin >> password;
+
+    cout << "Enter password: ";
+    cin >> password;
+
+    // Boolean checks
+    bool userMatch = (username == correctUser);
+    bool passMatch = (password == correctPass);
+
+    // Combined Boolean logic
+    bool loginSuccess = userMatch && passMatch;
+
+    // Decision based on Boolean result
+    if (loginSuccess) {
+        cout << "Login successful. Welcome, " << username << "!" 
+    }
 }
