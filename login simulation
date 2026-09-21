@@ -28,6 +28,10 @@ int main() {
 
     // Decision based on Boolean result
     if (loginSuccess) {
-        cout << "Login successful. Welcome, " << username << "!" 
+        cout << "Login successful. Welcome, " << username << "!" << endl;
+    } else {
+        cout << "Login failed. Incorrect username or password." << endl;
     }
+
+    return 0;
 }
