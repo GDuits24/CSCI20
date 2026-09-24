@@ -14,9 +14,8 @@ int main() {
 
     // Ask user for credentials
     cout << "Enter username: ";
-    cin >> password;
-
     cout << "Enter password: ";
+    
     cin >> password;
 
     // Boolean checks
