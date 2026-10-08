@@ -1,5 +1,4 @@
-giberish 
-#include<iostream>
+ #include<iostream>
 
 using std::cout;
 using std::endl;
@@ -21,6 +20,11 @@ int main() {
         x=x+1;
     }else {
         x=x-1;
+    }
+    if(x!=y) { // ~
+        x=y;
+    } else {
+        // do nothing
     }
     cout << "x: " << x << "y: " << y << endl;
     return 0;
